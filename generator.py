@@ -7,7 +7,7 @@ from document_processor import EmailChunk
 class AnswerGenerator:
     """Handles answer generation using Gemini API"""
     
-    def __init__(self, api_key: str = None, model_name: str = "gemini-2.0-flash"):
+    def __init__(self, api_key: str = None, model_name: str = "gemini-flash-latest"):
         """
         Initialize the answer generator
         
