@@ -44,9 +44,15 @@ GEMINI_API_KEY=your_api_key_here
 
 ## Usage
 
-Run the main RAG pipeline:
-
+### For CPU-only systems (recommended):
 ```bash
+source venv/bin/activate
+CUDA_VISIBLE_DEVICES="" python rag_pipeline.py
+```
+
+### For systems with CUDA support:
+```bash
+source venv/bin/activate
 python rag_pipeline.py
 ```
 
