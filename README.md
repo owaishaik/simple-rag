@@ -1,9 +1,5 @@
 # Mini RAG System
 
-```
-Time: 75 Minutes
-```
-
 ## Overview
 
 A complete Retrieval-Augmented Generation (RAG) pipeline built from scratch for querying a dataset of 100 synthetic emails. This implementation demonstrates the core components of a RAG system without using end-to-end frameworks like LangChain or LlamaIndex.
@@ -161,8 +157,3 @@ The system will:
 │   └── ...
 └── README.md               # This file
 ```
-
-## Submission
-
-- Create a public git repository containing your submission and share the repository link
-- Do not fork this repository or create pull requests
